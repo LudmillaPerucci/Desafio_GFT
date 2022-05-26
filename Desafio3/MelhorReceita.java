@@ -29,9 +29,9 @@ public class MelhorReceita {
     }
     @Override
     public String toString() {
-        return "MelhorReceita [modoPreparo=" + modoPreparo + ", nome=" + nome + ", quantidade=" + quantidade
-                + ", tempoPreparo=" + tempoPreparo + "]";
+        return "MelhorReceita [modoPreparo=" + modoPreparo + ", nome=" + nome + ", quantidade=" + quantidade +
+            ", tempoPreparo=" + tempoPreparo + "]";
     }
-    
+
 
 }
