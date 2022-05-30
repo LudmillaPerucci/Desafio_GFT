@@ -8,17 +8,13 @@ public class OMaior {
         int maiorAb;
         int a = scan.nextInt();
         int b = scan.nextInt();
-        int abs = scan.nextInt();
+        int c = scan.nextInt();
         
-        maiorAb = (a + b  + abs(a - b)) / 2;
+        maiorAb = (a + b  + Math.abs(a - b)) / 2;
 
         System.out.println("Eh o maior:" + maiorAb);
         
 
 
 }
-
-    private static int abs(int i) {
-        return 0;
-    }
 }
